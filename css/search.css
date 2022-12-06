@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap');
+/* font-family: 'Turret Road', cursive; */
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Turret Road', cursive;
+}
+
+
+/* HEADER --------------------------------------------------------------- */
+
+header {
+    margin: 0 auto;
+    width: 940px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(172, 103, 103);
+}
+
+/* MAIN --------------------------------------------------------------- */
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+ul {
+    text-align: center;
+    margin: 0 0 0 420px;
+    padding: 0;
+}
+
+li {
+    display: block;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    background: rgb(131, 131, 131);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(180, 207, 83);
+}
